@@ -9,9 +9,19 @@ Gói plugin cá nhân tổng hợp từ **4 repository**:
 ## Cấu trúc thư mục
 
 - `plugin.json`: Khai báo gói plugin cho Antigravity nhận diện tự động.
-- `skills/` (**31 skills**): Toàn bộ kỹ năng từ 4 repo trên.
+- `skills/` (**34 skills**): Toàn bộ kỹ năng từ 4 repo trên + 3 lệnh tắt `/rea`, `/speckit`, `/superpowers`.
 - `rules/AGENTS.md`: Các quy tắc hành xử luôn bật (gồm rule cá nhân + rule của `ponytail` và `superpowers`).
 - `mcp_config.json`: Khai báo MCP server `rea` để skill `reverse-engineer-anything` có tool chạy phân tích binary/JS/APK.
+
+## Cách gọi lệnh chủ động (Slash Commands) & Tự động kích hoạt
+
+Trong Antigravity, **mọi skill đều hỗ trợ cả 2 chế độ**:
+- **Tự động:** Nếu bạn không gõ lệnh `/`, AI vẫn tự đọc mô tả skill (và `rules/AGENTS.md`) để tự kích hoạt skill phù hợp khi thấy cần.
+- **Chủ động gọi bằng `/`:**
+  - `/ponytail`, `/ponytail-review`, `/ponytail-audit`, `/ponytail-debt`, `/ponytail-gain`, `/ponytail-help`
+  - `/rea` (lệnh tắt cho `/reverse-engineer-anything`)
+  - `/speckit` (điểm vào chung) hoặc gọi thẳng `/speckit-constitution`, `/speckit-specify`, `/speckit-clarify`, `/speckit-plan`, `/speckit-checklist`, `/speckit-tasks`, `/speckit-analyze`, `/speckit-implement`, `/speckit-converge`
+  - `/superpowers` (điểm vào chung) hoặc gọi thẳng `/brainstorming`, `/writing-plans`, `/executing-plans`, `/test-driven-development`, `/systematic-debugging`, `/verification-before-completion`, v.v.
 
 ## 1. Đẩy lên Git repository (từ máy hiện tại)
 
