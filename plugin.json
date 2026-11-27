@@ -1,0 +1,12 @@
+{
+  "name": "personal-toolkit",
+  "displayName": "Personal Dev & RE Toolkit",
+  "version": "1.0.0",
+  "repository": "https://github.com/Duong11uy/Skill_anti",
+  "description": "Personal Antigravity plugin bundling REA (morluto/rea), Ponytail (dietrichgebert/ponytail), Superpowers (obra/superpowers), and Spec Kit (github/spec-kit).",
+  "suggestedPrompts": [
+    "Brainstorm and write a spec for a new feature using Spec Kit",
+    "Implement the task with TDD and minimal code (Superpowers + Ponytail)",
+    "Reverse engineer this binary or Electron app using REA"
+  ]
+}
